@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt3": "latest"
+  },
+  "dependencies": {
+    "@vee-validate/rules": "^4.5.11",
+    "vee-validate": "^4.5.11",
+    "yup": "^0.32.11"
+  }
+}
