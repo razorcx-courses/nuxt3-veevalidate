@@ -29,6 +29,7 @@
             label="Email"
             placeholder="Email"
             :debug="debug"
+            leftIcon="fa-envelope"
           />
           <VTextInput
             type="password"
@@ -36,6 +37,7 @@
             label="Password"
             placeholder="Password"
             :debug="debug"
+            leftIcon="fa-lock"
           />
           <VTextInput
             type="password"
@@ -43,6 +45,7 @@
             label="Confirm Password"
             placeholder="Confirm Password"
             :debug="debug"
+            leftIcon="fa-lock"
           />
 
           <template v-if="Object.keys(formErrors).length">

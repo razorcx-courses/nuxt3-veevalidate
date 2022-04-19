@@ -18,7 +18,7 @@
               :type="type"
             />
             <span class="icon is-small is-left">
-              <i class="fas fa-envelope"></i>
+              <i class="fas" :class="leftIcon"></i>
             </span>
             <span
               class="icon is-small is-right"
@@ -70,6 +70,10 @@ const props = defineProps({
     required: true,
   },
   placeholder: {
+    type: String,
+    default: "",
+  },
+  leftIcon: {
     type: String,
     default: "",
   },
