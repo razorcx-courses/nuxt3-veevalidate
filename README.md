@@ -1,6 +1,6 @@
 # Nuxt 3 - VeeValidate Starter
 
-We recommend to look at the [documentation](https://v3.nuxtjs.org).
+Have a look at the Nuxt 3 [documentation](https://v3.nuxtjs.org).
 
 ## Setup
 
